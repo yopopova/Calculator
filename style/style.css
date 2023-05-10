@@ -47,3 +47,15 @@ button {
 #screen::placeholder {
     color: #000000;
 }
+
+.symbol,
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    aspect-ratio: 1;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    transition: 0.15s ease;
+}
