@@ -31,3 +31,15 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#screen {
+    grid-column: 1 / 5;
+    border-radius: 0.75rem;
+    font-size: 2rem;
+    height: 6rem;
+    background-color: #ecf0f3;
+    box-shadow: inset 0px 0px 10px #ffffff, inset 6px 6px 15px rgba(0, 0, 0, 0.16);
+    text-align: end;
+    padding: 0.5rem;
+    margin: 5px 0 20px 0;
+}
