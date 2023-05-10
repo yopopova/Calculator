@@ -63,3 +63,7 @@ button {
 .symbol {
     background: rgb(114, 66, 156);
 }
+
+.symbol:hover {
+    background: rgb(135, 97, 168);
+}
