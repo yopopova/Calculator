@@ -16,3 +16,18 @@ button {
 button {
     cursor: pointer;
 }
+
+#calculator {
+    background: #ffffff;
+    box-shadow: 0 0 20px 2px #000000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+    width: 325px;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
