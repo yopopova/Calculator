@@ -7,6 +7,12 @@ function render() {
 
     const delBtn = createButton('button', 'DEL', 'symbol');
     delBtn.addEventListener('click', wipe);
+
+    const divisionBtn = createButton('button', '/', 'symbol');
+    divisionBtn.addEventListener('click', show);
+
+    const multiplicationBtn = createButton('button', '*', 'symbol');
+    multiplicationBtn.addEventListener('click', show);
 }
 
 function createButton(tag, content, className) {
