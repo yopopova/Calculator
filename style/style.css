@@ -69,3 +69,7 @@ button {
 .number {
     background: rgb(63, 178, 202);
 }
+
+.number:hover {
+    background: rgb(114, 212, 232);
+}
