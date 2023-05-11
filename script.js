@@ -9,4 +9,12 @@ function render() {
     delBtn.addEventListener('click', wipe);
 }
 
+function createButton(tag, content, className) {
+    const element = document.createElement(tag);
+    element.textContent = content;
+    element.classList.add(className);
+    calculator.appendChild(element);
+    return element;
+}
+
 render();
