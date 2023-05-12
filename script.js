@@ -31,6 +31,12 @@ function render() {
 
     const fiveBtn = createButton('button', '5', 'number');
     fiveBtn.addEventListener('click', show);
+
+    const sixBtn = createButton('button', '6', 'number');
+    sixBtn.addEventListener('click', show);
+
+    const addBtn = createButton('button', '+', 'symbol');
+    addBtn.addEventListener('click', show);
 }
 
 function createButton(tag, content, className) {
