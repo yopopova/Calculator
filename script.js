@@ -19,6 +19,12 @@ function render() {
 
     const eightBtn = createButton('button', '8', 'number');
     eightBtn.addEventListener('click', show);
+
+    const nineBtn = createButton('button', '9', 'number');
+    nineBtn.addEventListener('click', show);
+
+    const subtractionBtn = createButton('button', '-', 'symbol');
+    subtractionBtn.addEventListener('click', show);
 }
 
 function createButton(tag, content, className) {
