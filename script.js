@@ -13,6 +13,12 @@ function render() {
 
     const multiplicationBtn = createButton('button', '*', 'symbol');
     multiplicationBtn.addEventListener('click', show);
+
+    const sevenBtn = createButton('button', '7', 'number');
+    sevenBtn.addEventListener('click', show);
+
+    const eightBtn = createButton('button', '8', 'number');
+    eightBtn.addEventListener('click', show);
 }
 
 function createButton(tag, content, className) {
