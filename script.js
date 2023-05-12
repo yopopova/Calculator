@@ -25,6 +25,12 @@ function render() {
 
     const subtractionBtn = createButton('button', '-', 'symbol');
     subtractionBtn.addEventListener('click', show);
+
+    const fourBtn = createButton('button', '4', 'number');
+    fourBtn.addEventListener('click', show);
+
+    const fiveBtn = createButton('button', '5', 'number');
+    fiveBtn.addEventListener('click', show);
 }
 
 function createButton(tag, content, className) {
