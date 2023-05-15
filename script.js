@@ -67,6 +67,11 @@ function wipe() {
     display.value = '';
 }
 
+function show(event) {
+    const currentSymbol = event.target.textContent;
+    display.value += currentSymbol;
+}
+
 function createButton(tag, content, className) {
     const element = document.createElement(tag);
     element.textContent = content;
