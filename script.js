@@ -55,6 +55,12 @@ function render() {
 
     const zeroBtn = createButton('button', '0', 'number');
     zeroBtn.addEventListener('click', show);
+
+    const rightBracketBtn = createButton('button', ')', 'number');
+    rightBracketBtn.addEventListener('click', show);
+
+    const equalBtn = createButton('button', '=', 'symbol');
+    equalBtn.addEventListener('click', calc);
 }
 
 function createButton(tag, content, className) {
