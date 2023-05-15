@@ -49,6 +49,12 @@ function render() {
 
     const dotBtn = createButton('button', '.', 'symbol');
     dotBtn.addEventListener('click', show);
+
+    const leftBracketBtn = createButton('button', '(', 'number');
+    leftBracketBtn.addEventListener('click', show);
+
+    const zeroBtn = createButton('button', '0', 'number');
+    zeroBtn.addEventListener('click', show);
 }
 
 function createButton(tag, content, className) {
