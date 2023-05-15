@@ -72,6 +72,14 @@ function show(event) {
     display.value += currentSymbol;
 }
 
+function calc() {
+    try {
+        display.value = eval(display.value);
+    } catch (error) {
+        alert(error.message)
+    }
+}
+
 function createButton(tag, content, className) {
     const element = document.createElement(tag);
     element.textContent = content;
