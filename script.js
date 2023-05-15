@@ -63,6 +63,10 @@ function render() {
     equalBtn.addEventListener('click', calc);
 }
 
+function wipe() {
+    display.value = '';
+}
+
 function createButton(tag, content, className) {
     const element = document.createElement(tag);
     element.textContent = content;
