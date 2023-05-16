@@ -11,3 +11,8 @@ The app is based on:
 - CSS
 - Gradient Magic Backgrounds
 - Google Fonts
+
+## Live Demo
+
+- Web app live demo: [https://calculator/yopopova.repl.co](https://calculator--yopopova.repl.co)
+- Play with the code at: [https://replit.com/@yopopova/Calculator](https://replit.com/@yopopova/Calculator?v=1)
