@@ -16,3 +16,7 @@ The app is based on:
 
 - Web app live demo: [https://calculator/yopopova.repl.co](https://calculator--yopopova.repl.co)
 - Play with the code at: [https://replit.com/@yopopova/Calculator](https://replit.com/@yopopova/Calculator?v=1)
+
+## Screenshot
+
+![calculator](https://github.com/yopopova/Calculator/assets/59256039/1ae00469-2030-4fbf-a66e-5cf55d037add)
